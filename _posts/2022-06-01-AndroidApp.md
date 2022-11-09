@@ -5,9 +5,9 @@ excerpt: "App nativa para la captura de movimientos de inventario en centro de d
 
 Perfil: Diseñador, Programador"
 date: 2022-06-01
-classes: wide
-header: Header
-  teaser: teaser
+classes: 
+header: 
+  teaser: 
   teaser_home_page: true
   icon: 
 categories:
