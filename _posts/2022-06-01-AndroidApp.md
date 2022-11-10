@@ -21,6 +21,7 @@ tags:
   - MDM
   - Miradore
   - GitHub
+  - Figma
 ---
 
 ## Roles en el proyecto
