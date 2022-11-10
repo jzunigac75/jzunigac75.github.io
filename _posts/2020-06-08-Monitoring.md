@@ -1,0 +1,43 @@
+---
+layout: single
+title: Logging and Monitoring Platform
+excerpt: "Proveer de una plataforma única de monitoreo al equipo de desarrollo para ser utilizada en los nuevos proyecto asi como adaptable a los proyectos ya implementados."
+date: 2016-06-08
+classes: 
+header: 
+  teaser: 
+  teaser_home_page: true
+  icon: 
+categories:
+  - Investigación
+  - Integración
+  - Coordinación
+tags:  
+  - Elastic Search
+---
+
+## Roles en el proyecto
+
+- Coordinación
+- Investigación
+
+## Situación
+
+Cada proyecto crea su propia implementación de registro de eventos en diferentes repositorios, ya sea base de datos, archivos planos, json, xml, registro de enventos en windows, etc. Se pretende crear una sola plataforma que sea utilizada por todas las aplicaciones que además posea la capacidad de alertar creando los incidentes en la herramienta de incidentes de la empresa controlando cuando se abre y cierran automáticamente sin saturar la creación por un mismo incidente que permaneza abierto.
+
+## Solución
+
+Se hace la investigación necesaria y se encuentran dos herramientas que cumplen con lo esperado. 
+
+- [Elastic Search](https://www.elastic.co/es/elastic-stack/)
+- [Splunk](https://www.splunk.com/en_us/products.html)
+
+Dado que ElasticSearch cuenta con una licencia OpenSouce se hace el piloto utilizando las herramientas del stack de elastic con:
+
+- Kibana: Confección de tablero
+- LogStash: Recolección de logs
+- ElasticSearch: Repositorio y motor de búsqueda
+
+Para contar con un tablero universal se confeccionó un solo formato de log para todas las nuevas aplicaciones y mediante logstash recolectar y transformar viejos logs en el nuevo formato de tal forma que se logró contar con un solo tablero de Monitor.
+
+
