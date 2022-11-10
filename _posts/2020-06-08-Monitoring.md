@@ -34,10 +34,13 @@ Se hace la investigación necesaria y se encuentran dos herramientas que cumplen
 
 Dado que ElasticSearch cuenta con una licencia OpenSouce se hace el piloto utilizando las herramientas del stack de elastic con:
 
-- Kibana: Confección de tablero
-- LogStash: Recolección de logs
-- ElasticSearch: Repositorio y motor de búsqueda
+- [Kibana](https://www.elastic.co/es/kibana/): Confección de tablero
+- [LogStash](https://www.elastic.co/es/logstash/): Recolección de logs
+- [ElasticSearch](https://www.elastic.co/es/elasticsearch/): Repositorio y motor de búsqueda
+  
+Para poder hacer un switch a futuro se creo un adaptador que es el que consumen las aplicaciones y que luego permitirá cambiar el motor de búsqueda.
 
 Para contar con un tablero universal se confeccionó un solo formato de log para todas las nuevas aplicaciones y mediante logstash recolectar y transformar viejos logs en el nuevo formato de tal forma que se logró contar con un solo tablero de Monitor.
 
+Se hizo el piloto con el procesamiento de facturas electrónicas y se catalogó como un éxito el poder localizar los problemas que se presentaban sin necesidad del ingreso a ambientes de producción para determinar la solución. A ello se sumó que los mismos logs dieron información necesaria para generar métricas de rendimiento (KPIs).
 

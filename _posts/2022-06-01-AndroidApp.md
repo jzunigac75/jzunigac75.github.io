@@ -47,8 +47,8 @@ Para la distribión vía remota de la aplicación dado que no es una aplicación
 
 Ejemplo de escaneo de productos
 
-![](../assets/images/ScanTrack_Scan.jpg)
+[<img src="../assets/images/ScanTrack_Scan.jpg" width="250"/>]
 
 Ejemplo de captura de Alisto
 
-![](../assets/images/ScanTrack_NewDoc.jpg)
+[<img src="../assets/images/ScanTrack_NewDoc.jpg" width="250"/>]
