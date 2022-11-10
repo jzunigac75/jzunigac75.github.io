@@ -9,7 +9,7 @@ header:
   teaser_home_page: true
   icon: 
 categories:
-  - Arquitectura Aplicaciones
+  - Arquitectura de Aplicaciones
   - Base de Datos
   - Programación
 tags:  

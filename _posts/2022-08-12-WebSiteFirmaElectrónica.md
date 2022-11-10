@@ -9,7 +9,7 @@ header:
   teaser_home_page: true
   icon: 
 categories:
-  - Arquiecto de Aplicación
+  - Arquitectura de Aplicaciones
   - Programador
 tags:  
   - .Net 6
