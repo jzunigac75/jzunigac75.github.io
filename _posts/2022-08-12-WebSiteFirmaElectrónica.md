@@ -33,7 +33,7 @@ La institución coodinadora de las regencias de las farmación requiere de lleva
 
 ## Solución
 
-Dado que es una entrada manual y que se hará en los equipos de las farmacias se crea un sitio web expuesto en internet por medio de Google Cloud. La validación de la autoría del ingreso de información se hacer por medio de [firma digital](https://www.mifirmadigital.go.cr/) que ofrece el Banco Central de Costa Rica.
+Dado que es una entrada manual y que se hará en los equipos de las farmacias se crea un sitio web expuesto en internet por medio de Google Cloud. La validación de la autoría del ingreso de información se hace por medio de [firma digital](https://www.mifirmadigital.go.cr/) que ofrece el Banco Central de Costa Rica.
 
 ## Arquitectura Conceptual
 
