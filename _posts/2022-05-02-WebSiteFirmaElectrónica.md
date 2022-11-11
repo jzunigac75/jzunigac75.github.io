@@ -2,7 +2,7 @@
 layout: single
 title: Sitio Web con firma digital para monitorear la temperatura ambiente de cámaras de frío en las farmacias.
 excerpt: "Se construye un sitio Web en la nube pública de Google que permite certificar la entrada de datos por parte del usuario mediante la autenticación con firma digital del Banco Central de Costa Rica."
-date: 2022-08-12
+date: 2022-05-02
 classes: wide
 header:
   teaser: 
