@@ -15,7 +15,6 @@ categories:
 tags:  
   - MS-SQL
   - Android Studio
-  - Mobile
   - Java
   - NodeJs
   - MDM
