@@ -2,7 +2,8 @@
 layout: single
 title: Arquitectura Empresarial
 excerpt: "Una cooperativa desea establecer la ruta estrátegica para los siguientes cinco años y para ello en primera fase hay que hacer Arquitectura Empresarial levantando la situación actual de la empresa."
-date: 2003-01-01
+date: 2021-10-01
+dateto: 2021-12-30
 classes: 
 header: 
   teaser: 

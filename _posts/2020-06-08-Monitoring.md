@@ -2,7 +2,8 @@
 layout: single
 title: Logging and Monitoring Platform
 excerpt: "Proveer de una plataforma única de monitoreo al equipo de desarrollo para ser utilizada en los nuevos proyecto asi como adaptable a los proyectos ya implementados."
-date: 2016-06-08
+date: 2020-06-08
+dateto: 2020-12-31
 classes: 
 header: 
   teaser: 
