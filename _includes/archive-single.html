@@ -37,6 +37,7 @@
         <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.last_modified_at | date: "%Y-%m-%d" }}">{{ post.last_modified_at | date: "%B %Y" }}</time>&emsp;
       {% elsif post.date %}
         <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y " }}</time>&emsp;
+        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.dateto | date_to_xmlschema }}">{{ post.dateto | date: "%B %Y " }}</time>&emsp;
       {% endif %}
       {% if post.read_time %}<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}
     </p>

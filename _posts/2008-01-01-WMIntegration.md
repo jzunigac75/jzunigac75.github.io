@@ -20,7 +20,7 @@ tags:
 ## Roles en el proyecto
 
 - Programación
-- Architectura de Soluciones
+- Arquitectura de Soluciones
 - Coordinación
 
 ## Situación
