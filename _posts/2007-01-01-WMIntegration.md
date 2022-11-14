@@ -2,7 +2,7 @@
 layout: single
 title: Integración sistemas Walmart
 excerpt: "Con motivo de la adquisisión de la Walmart de la Corporación Supermercados Unidos se dará una sustitución gradual de los sistemas globales por los locales, inialmente en un plazo de tres años."
-date: 2008-01-01
+date: 2007-01-01
 dateto: 2009-06-01
 classes: 
 header: 
