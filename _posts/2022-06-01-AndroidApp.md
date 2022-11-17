@@ -13,7 +13,8 @@ categories:
   - Base de Datos
   - Programación
 tags:  
-  - MS-SQL
+  - SQL
+  - SQL Server
   - Android Studio
   - Java
   - NodeJs

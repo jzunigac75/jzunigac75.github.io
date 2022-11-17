@@ -12,7 +12,8 @@ categories:
   - Programación
   - Integración
 tags:  
-  - MS-SQL
+  - SQL
+  - SQL Server
   - Visual Basic 6
 ---
 
